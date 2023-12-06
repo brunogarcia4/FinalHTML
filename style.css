@@ -1,0 +1,165 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Body background set to black */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container, footer {
+    background-color: #fff; /* Main content and footer background set to white */
+    margin: 0 3cm; /* Maintain the 3cm margin for both */
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #000; /* Bold black background */
+    color: #ffeb3b; /* Yellow text for contrast */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffeb3b; /* Yellow links */
+}
+
+/* Section Styling */
+section {
+    background-color: #fff; /* White background for sections */
+    color: #000; /* Black text for readability */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space between sections */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000; /* Set the footer's background to black */
+    color: yellow;
+    padding: 20px 0;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul, 
+.footer-section p, 
+.footer-section form {
+    list-style: none;
+}
+
+.footer-section ul li a {
+    color: #ffeb3b; /* Yellow links */
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.image-gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-gallery {
+    text-align: center; /* Centers the images in the gallery */
+    padding: 20px;
+}
+
+.image-gallery img {
+    width: 300px; /* Sets a uniform width for each image */
+    height: 150px; /* Sets a uniform height for each image */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    object-fit: cover; /* Ensures the images cover the area without stretching */
+}
+
+.img-gallery {
+    text-align: center; /* Centers the images in the gallery */
+    padding: 20px;
+}
+
+.img-gallery img {
+    width: 700px; /* Sets a uniform width for each image */
+    height: 1000px; /* Sets a uniform height for each image */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    object-fit: cover; /* Ensures the images cover the area without stretching */
+}
+
+.img-gal {
+    text-align: center; /* Centers the images in the gallery */
+    padding: 20px;
+}
+
+.img-gal img {
+    width: 1500px; /* Sets a uniform width for each image */
+    height: 1000px; /* Sets a uniform height for each image */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    object-fit: cover; /* Ensures the images cover the area without stretching */
+}
+
+.img1-gallery {
+    text-align: center; /* Centers the images in the gallery */
+    padding: 20px;
+}
+
+.img1-gallery img {
+    width: 1500px; /* Sets a uniform width for each image */
+    height: 1000px; /* Sets a uniform height for each image */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    object-fit: cover; /* Ensures the images cover the area without stretching */
+}
+
+.feedback-comments blockquote {
+    background-color: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.feedback-comments blockquote p {
+    margin: 0;
+}
